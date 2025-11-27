@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="main.js"></script>
+</head>
+
+<body>
+    <style>
+        .pages {
+            display: inline-flex;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .pages li {
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .active {
+            font-weight: bold;
+            text-decoration: underline;
+            color: red;
+        }
+    </style>
+    <ul id="list"></ul>
+
+    <button id="prev" disabled>Anterior</button>
+    <ul class="pages">
+    </ul>
+    <button id="next">Siguiente</button>
+</body>
+
+</html>
